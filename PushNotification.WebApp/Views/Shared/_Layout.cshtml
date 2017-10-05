@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>PushNotification.WebApp</title>
+    
+    <script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyAAmUhh70rNFN4xY4xPE4xAVI4IRniuqS0",
+            authDomain: "pushnotificationimpl.firebaseapp.com",
+            databaseURL: "https://pushnotificationimpl.firebaseio.com",
+            projectId: "pushnotificationimpl",
+            storageBucket: "",
+            messagingSenderId: "571091590331"
+        };
+        firebase.initializeApp(config);
+    </script>
+</head>
+<body>
+<div>
+     @RenderBody() 
+</div>
+</body>
+</html>
